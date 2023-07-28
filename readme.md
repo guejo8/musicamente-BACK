@@ -1,3 +1,8 @@
+
+Este es el repositorio frontend del proyecto fullstack Musicamente scholl, ha sido desarrollado utilizando Python y se conecta con una base de datos MongoDB alojada en MongoDB Atlas.
+Proporciona una API REST para que el frontend y otros clientes accedan y manipulen la información de las lecciones
+
+
 1.Crear un entorno virtual
 
 python -m venv venv or python3 -m venv .venv
