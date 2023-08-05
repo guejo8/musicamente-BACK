@@ -8,7 +8,7 @@ CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 # Crea una función para establecer la conexión con MongoDB Atlas
 def get_database_connection():
-    uri = "mongodb+srv://root:swwaohTbDXF2Mf8Q@cluster0.xeild8p.mongodb.net/musicamente?retryWrites=true&w=majority"
+    uri = "mongodb+srv://root:password@cluster0.xeild8p.mongodb.net/musicamente?retryWrites=true&w=majority"
     client = MongoClient(uri)
     return client["musicamente"]
 
